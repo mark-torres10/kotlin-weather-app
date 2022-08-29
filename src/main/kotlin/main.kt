@@ -8,8 +8,8 @@ fun main() {
     // get user input
 
     // make request
-    var city = "Chicago"
-    var date = "2022-08-28"
+    var city = "London"
+    var date = "2022-12-25"
     val dotenv = dotenv()
     val apiKey = dotenv["X-RapidAPI-Key"]
     val apiHost = dotenv["X-RapidAPI-Host"]
